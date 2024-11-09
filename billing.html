@@ -1,0 +1,196 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery </title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="shortcut icon" href="images/fav-icon.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="preheader">
+            <h6>Need Help? +919876543210</h6>
+            <h6>Get 50% Off On Selected Items</h6>
+            <div class="mods">
+                <h6>
+                    <form action="">
+                        <label for="checkbox">English</label>
+                        <input type="checkbox" name="English" id="checkbox">
+
+                        <label for="checkbox">Location</label>
+
+                        <input type="checkbox" name="fa-location-arrow" id="checkbox">
+                    </form>
+                </h6>
+            </div>
+
+        </div>
+        <div class="container">
+            <nav class="navigation">
+
+                <a href="index.html" class="logo">
+                    Gro<span>cery</span>
+                </a>
+
+                <ul class="menu">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="category.html">categories</a></li>
+                    <li><a href="about us.html">About us</a></li>
+                    <li><a href="billing.html">Billing </a></li>
+
+                </ul>
+
+                <div class="right-nav">
+
+
+
+                    <a href="#" class="like">
+                        <i class='bx bx-heart'></i>
+                    </a>
+
+
+
+
+                    <a href="#" class="cart">
+                        <i class='bx bxs-cart'></i>
+                    </a>
+
+                    <a href="login form.html" class="login">
+                        <i class='bx bxs-user'></i>
+                    </a>
+
+                </div>
+            </nav>
+        </div>
+
+        </nav>
+
+        <div class="container-flui">
+            <!-- Billing Details Section -->
+            <div class="billing-details">
+                <h3>Billing Details</h3>
+                <form action="#">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" required>
+
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone" required>
+
+                    <label for="address">Address</label>
+                    <input type="text" id="address" name="address" required>
+
+                    <label for="alt-phone">Alternate Phone Number (Optional)</label>
+                    <input type="tel" id="alt-phone" name="altphone">
+
+                    <label for="notes">Order Notes (Optional)</label>
+                    <textarea id="notes" name="notes"
+                        placeholder="Notes about your order, e.g. special instructions for delivery."
+                        rows="4"></textarea>
+                </form>
+            </div>
+
+            <!-- Order Summary Section -->
+            <div class="summary">
+                <h3>Billing Details</h3>
+                <table>
+                    <tr>
+                        <td>Product 1</td>
+                        <td>$45.00</td>
+                    </tr>
+                    <tr>
+                        <td>Product 2</td>
+                        <td>$65.00</td>
+                    </tr>
+                    <tr>
+                        <td>Shipping</td>
+                        <td>$10.00</td>
+                    </tr>
+                    <tr class="total">
+                        <td>Total</td>
+                        <td>$120.00</td>
+                    </tr>
+                </table>
+
+                <h3>Payment Options</h3>
+                <form>
+                    <input type="radio" id="direct" name="payment" value="direct" checked>
+                    <label for="direct">Direct Bank Transfer</label><br>
+
+                    <input type="radio" id="mobile" name="payment" value="mobile">
+                    <label for="mobile">Mobile Banking</label><br>
+
+                    <input type="radio" id="cash" name="payment" value="cash">
+                    <label for="cash">Cash on Delivery</label><br>
+
+                    <button type="submit">Place Order</button>
+                </form>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-container">
+                <div class="footer-logo">
+                    <a href="index.html">Gro<span>cery</span></a>
+                    <p>Lorem ipsum dolor sit, amet elit.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <strong>Product</strong>
+                    <ul>
+                        <li><a href="#">Vegetables</a></li>
+                        <li><a href="#">Packages</a></li>
+                        <li><a href="#">Popular</a></li>
+                        <li><a href="#">New</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <strong>Useful Links</strong>
+                    <ul>
+                        <li><a href="#">About Our Shop</a></li>
+                        <li><a href="#">Secure Shopping</a></li>
+                        <li><a href="#">Delivery Information</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <strong>Contact</strong>
+                    <ul>
+                        <li><a href="#">Phone : +91 7668217510</a></li>
+                        <li><a href="#">Email : grocery@gmail.com</a></li>
+                        <li><a href="#">Address : Vaishali Nagar, Jaipur, Rajasthan (India)</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </footer>
+
+</body>
+
+</html>
